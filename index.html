@@ -23,10 +23,6 @@
     </script>
 
     <style>
-        .two-is-one {
-            #one:
-        }
-
         .lato-font {
             font-family: 'Lato', sans-serif;
         }
@@ -47,7 +43,8 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M4 6h16M4 12h16M4 18h7" />
                     </svg></div>
-                <ul tabindex="0" id="menu" class=" flex gap-5 mt-3  p-2 max-sm:hidden sm:hidden md:flex  lg:flex  ">
+                <ul tabindex="0" id="menu"
+                    class=" flex gap-5 mt-3  p-2 max-sm:hidden sm:hidden md:flex  lg:flex text-xl text-white ">
                     <li><a>Home</a></li>
                     <li><a>About us</a></li>
                     <li><a>Shop</a></li>
@@ -55,7 +52,7 @@
                 </ul>
             </div>
             <div class="navbar-center ">
-                <a class="btn btn-ghost normal-case text-xl"><img src="./images/logo.png" alt=""> Fruit Burst</a>
+                <a class="flex items-center text-5xl text-white"><img src="./images/logo.png" alt=""> Fruit Burst</a>
             </div>
             <div class="navbar-end ">
                 <button
@@ -847,8 +844,48 @@
             </div>
         </section>
     </main>
+    <footer class="container justify-center mx-auto bg-[#121212]">
+        <div class="flex items-center justify-center pt-20 ">
+            <img src="./images/logo.png" alt="">
+            <h4 class="text-5xl text-white">Fruit Burst</h4>
 
-    <footer>
+        </div>
+        <div class="justify-center max-sm:hidden md:flex lg:flex  py-8 ">
+            <ul class=" flex justify-center gap-10 text-white text-center  ">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Shop</li>
+                <li>All Fruits</li>
+                <li>Support</li>
+                <li>My Account</li>
+            </ul>
+        </div>
+
+        <div class="justify-center gap-10 md:hidden lg:hidden   py-8 ">
+            <div>
+                <ul class=" flex justify-center gap-10 text-white text-center">
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Shop</li>
+                    <li>All Fruits</li>
+                </ul>
+            </div>
+            <div >
+                <ul class=" flex justify-center gap-10 text-white text-center">
+                    <li>Support</li>
+                    <li>My Account</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="flex items-center justify-center text-3xl text-white gap-6 pb-10">
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-apple"></i>
+        </div>
 
     </footer>
 </body>
